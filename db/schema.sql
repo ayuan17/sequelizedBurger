@@ -1,0 +1,10 @@
+CREATE TABLE burgers
+(
+
+id INT NOT NULL AUTO_INCREMENT,
+burger_name varchar(255) NOT NULL,
+devoured BOOLEAN NOT NULL DEFAULT 0,
+date TIMESTAMP,
+PRIMARY KEY (id)
+
+);
